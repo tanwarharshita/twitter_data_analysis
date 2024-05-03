@@ -9,7 +9,7 @@ def dir_list(path):   #: str):           # get the names of files in folder
 x = dir_list(r"D:\UOE MODULES PYTHON DIRECTORy_codes\IDS\assignment\twitter_data")
 print(dir_list(r"D:\UOE MODULES PYTHON DIRECTORy_codes\IDS\assignment\twitter_data"))
 print(len(x))
-
+ 
 
 def zip_extraction1(zip_filename, dir_path= r"D:\UOE MODULES PYTHON DIRECTORy_codes\IDS\assignment\twitter_data"):  #
     with ZipFile(f'{dir_path}/{zip_filename}', 'r') as zip_folder:  #dir_path:- D:\UOE MODULES PYTHON DIRECTORy_codes\IDS\assignment\twitter_data  #zip_filename:- geoEurope_2022060100.zip  #returns obj which is zip folder  (each obj for eaach zip file going on by one)
